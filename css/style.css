@@ -10,7 +10,7 @@ h3 {
   font-size: 18px;
   font-family: GalanoGrotesque-SemiBold;
   text-transform: uppercase;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
   color: #00cfc1;
 }
 
@@ -49,7 +49,6 @@ h2 a:hover {
   z-index: 10;
 }
 
-
 #hero h2 {
 	font-size: 24px;
 	font-family: GalanoGrotesque-Regular;
@@ -57,7 +56,7 @@ h2 a:hover {
 	margin-bottom: 40px;
 	text-decoration: underline;
 	line-height: 1;
-	letter-spacing: 2px;	
+	letter-spacing: 2px;
 	text-align: center;
 }
 
@@ -82,7 +81,7 @@ h2 a:hover {
   padding-top: 380px;
 }
 
-.divider {	
+.divider {
 	background: url(../images/divider.png) center center repeat-x;
 	background-size: 140px auto;
 	width: 100%;
@@ -168,7 +167,7 @@ text-align: center;
 #more-details .logo-group {
   height:   155px;
   background: url(../images/logo-group-stack@2x.png) center center no-repeat;
-  background-size: 200px auto;	
+  background-size: 200px auto;
   text-indent: -9999px;
   margin-bottom: 80px;
 }
@@ -288,7 +287,7 @@ position: relative;
 }
 
 #artist-info .artist-info-section p.social {
-margin-top: 0px;	
+margin-top: 0px;
 }
 
 #artist-info .artist-info-section p.social a {
@@ -362,14 +361,14 @@ margin-top: 0px;
 
 
 
-/* Larger than mobile  ---------------------------------------*/ 
+/* Larger than mobile  ---------------------------------------*/
 @media (min-width: 400px) {
-	
+
 }
 
 
 
-/* Larger than phablet (also point when grid becomes active)  ---------------------------------------*/ 
+/* Larger than phablet (also point when grid becomes active)  ---------------------------------------*/
 @media (min-width: 550px) {
 
 #hero h1 {
@@ -387,7 +386,7 @@ margin-top: 0px;
 h4 {
 	font-size: 18px;
 }
-  
+
 #artist-info .artist-info-section img {
 width: 200%;
 }
@@ -410,18 +409,18 @@ width: 200%;
 .divider {
 	background-size: 220px auto;
 	width: 100%;
-	height: 20px;	
+	height: 20px;
 }
 .divider.white {
 	background-size: 220px auto;
 	width: 100%;
-	height: 20px;	
+	height: 20px;
 }
 
 #more-details .logo-group {
   margin-bottom: 0px;
 }
-	
+
 
 #footer {
 	text-align: left;
@@ -435,23 +434,23 @@ width: 200%;
 #artist-info .artist-info-section {
 	text-align: left;
 }
-	
 
-  
+
+
 }
 
 
-/* Larger than tablet  ---------------------------------------*/ 
+/* Larger than tablet  ---------------------------------------*/
 @media (min-width: 700px) {
 
 #hero {
   position: static;
 }
 
-#hero .photo {    
+#hero .photo {
   height: 520px;
   width: 55%;
-}  
+}
 
 #hero h1 {
   position: absolute;
@@ -493,7 +492,7 @@ width: 200%;
 
 
 
-/* Larger than tablet  ---------------------------------------*/ 
+/* Larger than tablet  ---------------------------------------*/
 @media (min-width: 768px) {
 
 
@@ -502,7 +501,7 @@ width: 200%;
   font-size: 20px;
 }
 
-#hero .photo {    
+#hero .photo {
   height: 580px;
 }
 #hero .column {
@@ -513,7 +512,7 @@ width: 200%;
 
 }
 
-/* Larger than tablet  ---------------------------------------*/ 
+/* Larger than tablet  ---------------------------------------*/
 @media (min-width: 900px) {
 
 #rsvp .signup-container {
@@ -531,12 +530,12 @@ h4 {
 
 #more-details .logo-group {
   height:   200px;
-  background-size: 250px auto;	
+  background-size: 250px auto;
 }
 
 }
 
-/* Larger than desktop  ---------------------------------------*/ 
+/* Larger than desktop  ---------------------------------------*/
 @media (min-width: 1000px) {
 
 
@@ -550,7 +549,7 @@ h4 {
 
 
 
-/* Larger than Desktop HD ---------------------------------------*/ 
+/* Larger than Desktop HD ---------------------------------------*/
 @media (min-width: 1200px) {
 
 
