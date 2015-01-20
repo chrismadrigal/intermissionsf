@@ -13,6 +13,12 @@ $(function() {
 		});
 	});
 
+	// Back to top.
+	$('.back', '#footer').on('click', function (e) {
+		e.preventDefault();
+		var id = $(e.currentTarget).attr('href').match(/#.+/)[0];
+		$('html,body').stop().animate({scrollTop: $(id).offset().top}, 300, function() {});
+	});
 
 	// Open / collapse readmore.
 	$('.read-more').click(function (e) {
