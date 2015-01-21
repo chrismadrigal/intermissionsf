@@ -398,12 +398,15 @@ margin-top: 0px;
 }
 
 #footer .logo-footer {
+	display: inline-block;
 	width: 83px;
 	height: 31px;
 	background: url(../images/logo-footer@2x.png) center center no-repeat;
   	background-size: 83px 31px;
   	text-indent: -9999px;
   	margin: 0 auto 40px auto;
+  	text-decoration: none;
+  	border: none;
 }
 
 
