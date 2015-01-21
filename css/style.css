@@ -267,6 +267,7 @@ text-align: center;
 #artist-info .section-header h4 {
 	margin-bottom: 80px;
 	display: inline-block;
+	max-width: 500px;
 }
 
 #artist-info .artist-info-section#cathedrals p:last-child {
