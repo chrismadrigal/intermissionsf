@@ -357,6 +357,7 @@ position: relative;
 #artist-info .artist-info-section p.social {
 margin-top: 0px;
 text-align: center;
+line-height: 32px;
 }
 
 #artist-info .artist-info-section p.social a {
