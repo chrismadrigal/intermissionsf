@@ -90,6 +90,13 @@ h2 a:hover {
 	margin: 0;
 	z-index: 20;
 	width: 90%;
+
+	/* Temporary*/
+	display: none;
+}
+
+#hero .container > .rsvp {
+	display: block;
 }
 
 #hero .column {
@@ -533,6 +540,12 @@ width: 200%;
 	color: #fff;
 	z-index: 20;
 	width: auto;
+	/* Temporary*/
+	display: inline-block;
+}
+
+#hero .container > .rsvp {
+	display: none;
 }
 
 
