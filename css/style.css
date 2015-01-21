@@ -559,6 +559,10 @@ width: 200%;
 	display: none;
 }
 
+#footer .four:first-child {
+	text-align: left;
+}
+
 
 }
 
