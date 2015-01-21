@@ -210,14 +210,11 @@ text-align: center;
   margin: 0 auto;
 }
 
-#rsvp .iframe-container {
-  margin-bottom: -40px;
-}
 #rsvp .signup-container iframe {
-  height: 280px;
-  border: none;
-  margin: 0;
-  padding: 0;
+	height: 240px;
+	border: none;
+	margin: 0;
+	padding: 0;
 }
 
 #artist-info {
@@ -395,6 +392,13 @@ margin-top: 0px;
 }
 
 
+/* iphone 6 and up  ---------------------------------------*/
+@media (min-width: 360px) {
+	#rsvp .iframe-container {
+		height: 283px;
+		overflow: hidden;
+	}
+}
 
 
 /* Larger than mobile  ---------------------------------------*/
@@ -503,6 +507,18 @@ width: 200%;
   display: block;
   max-height: 500px;
   opacity: 1;
+}
+
+#rsvp .iframe-container {
+  margin-bottom: -40px;
+  overflow: hidden;
+}
+
+#rsvp .signup-container iframe {
+  height: 280px;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 #artist-info .artist-info-section .video {
