@@ -30,6 +30,14 @@ h2 a:hover {
 	color: #fff;
 }
 
+a {
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-ms-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+
 #hero {
   background: url(../images/shapes-pattern@2x.png) -5px 10px repeat;
   background-color: #fff;
