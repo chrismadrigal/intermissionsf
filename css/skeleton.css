@@ -51,6 +51,14 @@
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
+  .three.column,
+  .three.columns {
+    width: 50%;
+  }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 960px) {
   .container {
     width: 80%; }
   .column,
@@ -125,9 +133,9 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
 
-	font-family: GalanoGrotesque-Regular; 
-	font-weight: normal; 
-	font-style: normal; 
+	font-family: GalanoGrotesque-Regular;
+	font-weight: normal;
+	font-style: normal;
   color: #4e4f52; }
 
 
@@ -182,15 +190,15 @@ input[type="button"] {
   color: #555;
   text-align: center;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 100;
+  font-family: GalanoGrotesque-SemiBold;
   line-height: 38px;
-  letter-spacing: .1rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 2px solid #00cfc1;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -203,8 +211,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  color: #fff;
+  background: #00cfc1;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -227,7 +235,14 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
-
+.button.large,
+button.large,
+input[type="submit"].large,
+input[type="reset"].large,
+input[type="button"].large {
+  height: 54px;
+  font-size: 18px;
+  line-height: 54px;}
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -244,7 +259,6 @@ select {
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #D1D1D1;
-  border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
 /* Removes awkward default styles on some inputs for iOS */
@@ -318,8 +332,7 @@ code {
   font-size: 90%;
   white-space: nowrap;
   background: #F1F1F1;
-  border: 1px solid #E1E1E1;
-  border-radius: 4px; }
+  border: 1px solid #E1E1E1;}
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
