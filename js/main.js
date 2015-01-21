@@ -1,6 +1,6 @@
 $(function() {
 	// Animate scroll for header links.
-	$('a', '#lineup').on('click', function (e) {
+	$('.scroll-to').on('click', function (e) {
 		var animating;
 		e.preventDefault();
 
@@ -11,13 +11,6 @@ $(function() {
 		$('html,body').stop().animate({scrollTop: $(id).offset().top}, 300, function() {
 			animating = false;
 		});
-	});
-
-	// Back to top.
-	$('.back', '#footer').on('click', function (e) {
-		e.preventDefault();
-		var id = $(e.currentTarget).attr('href').match(/#.+/)[0];
-		$('html,body').stop().animate({scrollTop: $(id).offset().top}, 300, function() {});
 	});
 
 	// Open / collapse readmore.
