@@ -57,6 +57,21 @@
   }
 }
 
+/* For devices larger than 768px */
+@media (min-width: 700px) {
+.four.column,
+.four.columns                   {
+    width: 30.6666666667%;
+    margin-left: 4%;
+  }
+
+.four.column:first-child,
+.four.columns:first-child {
+    margin-left: 0;
+}
+
+}
+
 /* For devices larger than 550px */
 @media (min-width: 960px) {
   .container {

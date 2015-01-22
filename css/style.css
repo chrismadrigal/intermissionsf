@@ -462,12 +462,6 @@ line-height: 32px;
   width: 100%;
 }
 
-#lineup .columns {
-	margin-bottom: 60px;
-	border-bottom: 0px solid rgba(0,0,0,.1);
-	padding-bottom: 0px;
-	text-align: left;
-}
 
 h4 {
 	font-size: 18px;
@@ -480,7 +474,6 @@ width: 100%;
 #more-details {
   padding-top: 80px;
   padding-bottom: 80px;
-  text-align: left;
 }
 
 #artist-info .artist-info-section h3 {
@@ -518,10 +511,6 @@ width: 100%;
 	background-size: 220px auto;
 	width: 100%;
 	height: 20px;
-}
-
-#more-details .logo-group {
-  margin-bottom: 0px;
 }
 
 
@@ -617,6 +606,12 @@ h3.tagline {
 	text-align: left;
 }
 
+#lineup .columns {
+	margin-bottom: 0px;
+	border-bottom: 0px solid rgba(0,0,0,.1);
+	padding-bottom: 0px;
+	text-align: left;
+}
 
 }
 
@@ -658,6 +653,7 @@ h4 {
 #more-details .logo-group {
   height:   200px;
   background-size: 250px auto;
+  margin-bottom: 40px;
 }
 
 h3.tagline {
