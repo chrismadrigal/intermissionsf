@@ -684,3 +684,9 @@ a {
 		width: 70%;
 	}
 }
+
+@media (min-width: 2300px) {
+	#hero .photo {
+		width: 67%;
+	}
+}
