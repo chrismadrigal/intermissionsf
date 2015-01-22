@@ -66,7 +66,7 @@ a {
 }
 
 #hero h2 {
-	font-size: 24px;
+	font-size: 20px;
 	font-family: GalanoGrotesque-Regular;
 	font-weight: 100;
 	margin-bottom: 40px;
@@ -642,6 +642,10 @@ h3.tagline {
 
 #hero .photo {
   width: 60%;
+}
+
+#hero h2 {
+  font-size: 24px;
 }
 
 h4 {
