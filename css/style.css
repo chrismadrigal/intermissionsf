@@ -413,7 +413,7 @@ a {
 	border: none;
 }
 
-/* iphone 6 and up  ---------------------------------------*/
+/* iphone 6 and up  ----------------------------------------------------------*/
 @media (min-width: 360px) {
 	#rsvp .iframe-container {
 		height: 283px;
@@ -421,12 +421,12 @@ a {
 	}
 }
 
-/* Larger than mobile  ---------------------------------------*/
+/* Larger than mobile  -------------------------------------------------------*/
 @media (min-width: 400px) {
 
 }
 
-/* Larger than phablet (also point when grid becomes active)  ---------------------------------------*/
+/* Larger than phablet (also point when grid becomes active)  ----------------*/
 @media (min-width: 550px) {
 	#hero h1 {
 		position: absolute;
@@ -488,7 +488,7 @@ a {
 }
 
 
-/* Larger than tablet  ---------------------------------------*/
+/* Larger than tablet  -------------------------------------------------------*/
 @media (min-width: 700px) {
 	#hero {
 		position: static;
@@ -578,7 +578,7 @@ a {
 	}
 }
 
-/* Larger than tablet  ---------------------------------------*/
+/* Larger than tablet  -------------------------------------------------------*/
 @media (min-width: 768px) {
 	#hero h2 {
 		font-size: 20px;
@@ -589,7 +589,7 @@ a {
 	}
 }
 
-/* Larger than tablet  ---------------------------------------*/
+/* Larger than tablet  -------------------------------------------------------*/
 @media (min-width: 900px) {
 	#rsvp .signup-container {
 		width: 50%;
@@ -619,7 +619,7 @@ a {
 	}
 }
 
-/* 960  ---------------------------------------*/
+/* 960  ----------------------------------------------------------------------*/
 @media (min-width: 960px) {
 	#lineup .columns {
 		margin-bottom: 0;
@@ -661,7 +661,7 @@ a {
 	}
 }
 
-/* Larger than desktop  ---------------------------------------*/
+/* Larger than desktop  ------------------------------------------------------*/
 @media (min-width: 1000px) {
 	#hero h1 {
 		width: 900px;
@@ -674,7 +674,7 @@ a {
 
 
 
-/* Larger than Desktop HD ---------------------------------------*/
+/* Larger than Desktop HD ----------------------------------------------------*/
 @media (min-width: 1200px) {
 	#hero .photo {
 		width: 65%;
