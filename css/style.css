@@ -240,11 +240,11 @@ a {
 }
 
 #artist-info .divider {
-	margin-bottom: 60px;
 	opacity: .4;
 }
 
 #artist-info .artist-info-section {
+	padding-top: 60px;
 	padding-bottom: 60px;
 	text-align: center;
 }
