@@ -659,6 +659,10 @@ a {
 		text-indent: -9999px;
 		margin: 13px 0 0 0 ;
 	}
+
+	#more-details {
+		text-align: left;
+	}
 }
 
 /* Larger than desktop  ------------------------------------------------------*/
