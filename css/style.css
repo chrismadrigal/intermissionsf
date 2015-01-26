@@ -37,7 +37,7 @@ a {
 #hero {
 	background: url(../images/shapes-pattern@2x.png) -5px 10px repeat;
 	background-color: #fff;
-	background-size: 328px auto;
+	background-size: 300px auto;
 	position: relative;
 }
 
@@ -499,7 +499,7 @@ a {
 	}
 
 	#hero .photo {
-		height: 520px;
+		height: 572px;
 		width: 55%;
 	}
 
@@ -585,7 +585,7 @@ a {
 	}
 
 	#hero .photo {
-		height: 580px;
+		height: 588px;
 	}
 }
 
@@ -598,6 +598,7 @@ a {
 
 	#hero .photo {
 		width: 60%;
+		height: 604px;
 	}
 
 	#hero h2 {
